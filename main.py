@@ -120,7 +120,7 @@ def send_sms():
         return jsonify({"error": "Missing phone number or message"}), 400
     
     # 1NCE SMS endpoint
-    iccid = "8958822866614198736"
+    iccid = "8988228066614198736"
     sms_url = f"https://api.1nce.com/management-api/v1/sims/{iccid}/sms"
     
     headers = {
